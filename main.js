@@ -7,6 +7,7 @@ let contatoreFine = 100;
 
 for (let i = contatoreInizio; i <= contatoreFine; i++) {
   // multipli di 3/
+
   if (i % 3 === 0) {
     console.log('Fizz');
   }
@@ -19,7 +20,8 @@ for (let i = contatoreInizio; i <= contatoreFine; i++) {
     console.log('', i);
   }
   // multipli sia di 3 che di 5/
-  // else  ((i % 3, 5 === 0)) {
-  //   console.log('FizzBuzz', i);
-  // }
+
+  if (i % 15 === 0) {
+    console.log('FizzBuzz');
+  }
 }
