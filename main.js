@@ -6,6 +6,9 @@ let contatoreInizio = 0;
 let contatoreFine = 100;
 
 for (let i = contatoreInizio; i <= contatoreFine; i++) {
+  const li = document.createElement('li');
+  li;
+
   // multipli di 3/
 
   if (i % 3 === 0) {
@@ -24,4 +27,7 @@ for (let i = contatoreInizio; i <= contatoreFine; i++) {
   if (i % 15 === 0) {
     console.log('FizzBuzz');
   }
+
+  elementUl.append(li);
+  li.append();
 }
