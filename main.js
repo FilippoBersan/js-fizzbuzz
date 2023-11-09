@@ -13,11 +13,11 @@ for (let i = contatoreInizio; i <= contatoreFine; i++) {
   // multipli di 3/
 
   if (i % 3 === 0) {
-    console.log('Fizz');
+    console.log(i, 'Fizz');
   }
   // multipli di 5/
   else if (i % 5 === 0) {
-    console.log('Buzz');
+    console.log(i, 'Buzz');
   }
   // numeri 0 100/
   else if (i % 1 === 0) {
@@ -26,7 +26,7 @@ for (let i = contatoreInizio; i <= contatoreFine; i++) {
   // multipli sia di 3 che di 5/
 
   if (i % 15 === 0) {
-    console.log('FizzBuzz');
+    console.log(i, 'FizzBuzz');
   }
 
   elementUl.append(li);
