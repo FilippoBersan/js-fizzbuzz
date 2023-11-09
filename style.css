@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 6.25rem auto;
+  max-width: 62.5rem;
+  /* border: 1px solid red; */
+}
+h1 {
+  text-align: center;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  width: 5rem;
+  height: 5rem;
+  background-color: blue;
+  margin: 0.3125rem;
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 3.125rem;
+}
