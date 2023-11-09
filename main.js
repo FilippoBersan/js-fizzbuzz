@@ -9,7 +9,6 @@ let contatoreFine = 100;
 
 for (let i = contatoreInizio; i <= contatoreFine; i++) {
   const li = document.createElement('li');
-  li;
 
   // multipli di 3/
 
